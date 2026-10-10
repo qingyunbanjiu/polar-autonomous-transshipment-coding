@@ -1,14 +1,16 @@
 # Polar Autonomous Transshipment Coding
 
-Final literature coding results accompanying the review **Polar Autonomous Transshipment in Infrastructure-Sparse Multimodal Logistics: A System-Level Review of Node-Level Operations, Platform Coordination, and Deployment Challenges** by Dong Liang, Yong Zhang, and Feiyang Ma.
+Literature coding dataset for the review **Polar Autonomous Transshipment in Infrastructure-Sparse Multimodal Logistics: A System-Level Review of Node-Level Operations, Platform Coordination, and Deployment Challenges** by Dong Liang, Yong Zhang, and Feiyang Ma.
 
-The review examines polar transshipment operations, platform coordination, autonomy capabilities, and deployment challenges within multimodal logistics chains.
+The dataset records how each source cited in the review was coded, and it reproduces the evidence maps and cross-tabulations reported in the paper.
 
 ## Dataset
 
-Download [final_code.xlsx](final_code.xlsx) to view the final coding results in Excel or another compatible spreadsheet application.
+[polar autonomous transshipment coding.xlsx](polar%20autonomous%20transshipment%20coding.xlsx) contains two sheets:
 
-- **Statistics**: summary counts by analysis and category, including reference entries and distinct sources.
-- **Coding_Results_Working**: reference metadata and literature coding for region, environment, evidence, node type, tasks, platforms, autonomy, coordination, evaluation, and operational constraints.
+- **Coding_Results_Working**: one row per bibliography entry, with source metadata and coded fields for region, evidence setting, use in the review, node type, task class, platform tier, capability layer, degree of autonomy, coordination scope, evaluation focus, and operational constraints.
+- **Statistics**: summary counts by field and category, including reference-entry counts and distinct-source counts for the 185 unique sources.
 
-The workbook is provided in its original form. Coding labels should be interpreted alongside the accompanying review.
+## Coding scheme
+
+Field definitions, permitted values, and decision rules follow Table A.1 in Appendix A of the review. Evidence maps and cross-tabulations are computed on unique sources, so a source with several bibliography entries is counted once. The coding sheet retains reference numbers and source metadata.
